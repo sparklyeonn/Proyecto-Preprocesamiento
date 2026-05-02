@@ -1,0 +1,28 @@
+# Python - Archivos compilados y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales 
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook - Archivos temporales de guardado
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code - Configuración
+.vscode/
+.history/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Datos (Opcional)
+# Si el archivo .csv es muy pesado, se suele ignorar, 
+# pero para esta tarea de Duoc conviene que esté en el repo.
+# *.csv
